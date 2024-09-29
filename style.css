@@ -8,8 +8,6 @@
   background-color: white;
   border-radius: 32px;
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
 }
 .background {
   background-color: #ecf2ff;
