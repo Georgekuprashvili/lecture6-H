@@ -20,7 +20,7 @@
 .blue-box {
   width: 368px;
   height: 512px;
-  background-color: rgb(59, 59, 179);
+  background: var(--Gradient-1, linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%));
   border-radius: 32px;
   display: flex;
   flex-direction: column;
@@ -38,7 +38,7 @@
 .circle {
   width: 200px;
   height: 200px;
-  background-color: #2521c9;
+  fill: var(--Gradient-2, linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0.00) 100%, rgba(37, 33, 201, 0.00) 100%));
   border-radius: 50%;
   display: flex;
   flex-direction: column;
@@ -92,7 +92,8 @@
   width: 288px;
   height: 56px;
   border-radius: 12px;
-  background-color: rgb(242, 200, 200);
+ background: var(--red-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #F55);
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -132,7 +133,8 @@
 .yellow-box2 {
   width: 288px;
   height: 56px;
-  background-color: #f2e0bd;
+  background: var(--yellow-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #FFB21E);
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -149,7 +151,7 @@
 .green-box3 {
   width: 288px;
   height: 56px;
-  background-color: #c2efe5;
+ background: var(--green-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #00BB8F);
   border-radius: 12px;
   display: flex;
   align-items: center;
@@ -159,7 +161,8 @@
 .blue-box4 {
   width: 288px;
   height: 56px;
-  background-color: rgb(156, 156, 226);
+  background: var(--blue-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #1125D6);
+
   border-radius: 12px;
   display: flex;
   align-items: center;
